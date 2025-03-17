@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: var(--background-color)
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 350px;
+    height: 370px;
+    background-color: white;
+    background-image: url('../images/bg-pattern-card.svg');
+    background-repeat: no-repeat;
+}
+
+hr {
+    width: 100%;
+    margin-top: 17px;
+}
+
+.card .informacoes-perfil .image {
+    border-radius: 50%;
+    margin-top: 80px;
+    border: solid 5px white;
+}
+
+.informacoes-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.informacoes-perfil .name,
+.numeros-perfil .info {
+    font-weight: 700;
+}
+
+.informacoes-perfil .name .age {
+    margin: 10px;
+}
+
+.informacoes-perfil .local,
+.numeros-perfil .info .contador,
+.informacoes-perfil .name .age {
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+.informacoes-perfil .local {
+    font-size: 14px;
+}
+
+.numeros-perfil {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+}
+
+.numeros-perfil .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.numeros-perfil .info .contador {
+    font-size: 12px;
+}
